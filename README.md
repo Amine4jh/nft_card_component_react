@@ -1,6 +1,6 @@
 # NFT Preview Card Component 🖼️
 
-![NFT Preview Card](./public/assets/images/preview.jpg)
+![NFT Preview Card](/public/assets/images/preview.png)
 
 A clean and modern NFT preview card built using **React** and **Vite**.  
 This project was inspired by a frontend mentor challenge and re-implemented from scratch by me.
@@ -29,4 +29,4 @@ This project was inspired by a frontend mentor challenge and re-implemented from
 
 ## 🧑‍💻 Author
 
-![HeroSolve Dev.](https://github.com/Amine4jh)
+[HeroSolve Dev.](https://github.com/Amine4jh)
