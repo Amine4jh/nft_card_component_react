@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit";
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: hsl(217, 54%, 11%);
+}
+.card{
+    width: 350px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.5);
+    background: hsl(216, 50%, 16%);
+}
+.card .nftImage{
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.card .nftImage #nft{
+    width: 100%;
+    border-radius: 10px;
+}
+.card .nftImage #eye{
+    display: none;
+    position: absolute;
+    top: 43%;
+    left: 43%;
+}
+.card .nftImage:hover #eye{
+    display: block;
+}
+.card .nftImage:hover::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 98%;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    background: hsl(178, 100%, 50%);
+    border-radius: 10px;
+}
+.card .content h1{
+    margin: 20px 0;
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.card .content h1:hover{
+    color: hsl(178, 100%, 50%);
+}
+.card .content p{
+    font-size: 18px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+.card .content div{
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card .content #value{
+    display: flex;
+    align-items: center;
+}
+.card .content #value span{
+    font-weight: 600;
+    margin-left: 10px;
+    color: hsl(178, 100%, 50%);
+}
+.card .content #time{
+    display: flex;
+    align-items: center;
+}
+.card .content #time span{
+    font-weight: 300;
+    margin-left: 10px;
+    color: hsl(215, 51%, 70%);
+}
+.card .footer{
+    padding: 20px 0 10px 0;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid hsl(215, 51%, 70%);
+}
+.card .footer img{
+    width: 35px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+.card .footer p{
+    margin-left: 20px;
+    color: hsl(215, 51%, 70%);
+}
+.card .footer p b{
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.card .footer p b:hover{
+    color: hsl(178, 100%, 50%);
+}
